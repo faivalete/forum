@@ -1,0 +1,48 @@
+
+.root {
+    height: calc((99px + 21px));
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background-color: white;
+    transition: height 300ms ease-in-out;
+}
+
+.Header {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1030px;
+    margin: 0 auto;
+    padding: 1rem 25px;
+
+}
+
+.logoBox {
+    display: flex;
+    align-items: center;
+    position: relative;
+
+}
+
+.dots {
+    height: 25.72px;
+    width: 25.72px;
+    margin-right: 5.36px;
+}
+
+.logo {
+    width: 88.758px;
+    height: 20.779px;
+    top: calc((1rem - (25.72px / 2)));
+    left: calc(25.72px + 0.5rem);
+    transition: top 300ms ease-in-out 0ms;
+    position: absolute;   
+}
+
+.logoScrolling {
+    top: -200%;
+}

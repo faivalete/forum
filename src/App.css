@@ -1,5 +1,15 @@
 .App {
   text-align: center;
+  overflow-x: hidden;
+}
+
+
+.App-content {
+  padding-top: 120px;
+}
+.content-img {
+  object-fit: contain;
+  height: 100%;
 }
 
 .App-logo {

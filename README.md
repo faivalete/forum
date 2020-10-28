@@ -2,6 +2,15 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+
+
+
+# PABLOS OUTCOME
+
+* I would have love to clean up more the code base and to unify variables for scss, and material ui. 
+* Also to provide some test scenario with Cyphress
+* Also need to handle mobile view, and scale down the menu entries. 
+
 ## Available Scripts
 
 In the project directory, you can run:
